@@ -1,0 +1,8 @@
+uuid: 9961a004-feda-4355-9150-d230a4a3178e
+langcode: fr
+status: true
+dependencies: {  }
+name: Thématique
+vid: thematique
+description: 'Thématique (Post Apocalyptique, Historique, Commerce, ...)'
+weight: 0

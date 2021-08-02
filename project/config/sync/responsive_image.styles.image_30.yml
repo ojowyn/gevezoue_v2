@@ -1,0 +1,13 @@
+uuid: 29648287-70df-4d13-829f-cedde860e521
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.large
+  theme:
+    - stark
+id: image_30
+label: 'Image 30%'
+image_style_mappings: {  }
+breakpoint_group: stark
+fallback_image_style: large

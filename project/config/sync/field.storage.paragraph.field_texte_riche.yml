@@ -1,0 +1,19 @@
+uuid: 2eb86dea-d457-4617-bbe2-85baaa0702a2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_texte_riche
+field_name: field_texte_riche
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

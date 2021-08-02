@@ -1,0 +1,11 @@
+uuid: d4a7549f-2d01-401c-a82c-87e7a1c0f407
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_jeu
+id: taxonomy_term.type_jeu
+target_entity_type_id: taxonomy_term
+target_bundle: type_jeu
+default_langcode: site_default
+language_alterable: false

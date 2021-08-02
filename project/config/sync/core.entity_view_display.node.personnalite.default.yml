@@ -1,0 +1,29 @@
+uuid: da9110f8-8a43-464b-a636-1ea3ecd2b9b3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.personnalite.body
+    - node.type.personnalite
+  module:
+    - text
+    - user
+id: node.personnalite.default
+targetEntityType: node
+bundle: personnalite
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

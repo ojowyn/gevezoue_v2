@@ -1,0 +1,29 @@
+uuid: 9dde7604-921b-4913-857a-c9acf9956683
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.actualite.body
+    - node.type.actualite
+  module:
+    - text
+    - user
+id: node.actualite.default
+targetEntityType: node
+bundle: actualite
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

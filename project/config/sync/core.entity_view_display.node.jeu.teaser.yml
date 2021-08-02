@@ -1,0 +1,31 @@
+uuid: d6651c90-eb4a-4857-9e8c-ad1730cee4df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.jeu.body
+    - node.type.jeu
+  module:
+    - text
+    - user
+id: node.jeu.teaser
+targetEntityType: node
+bundle: jeu
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

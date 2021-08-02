@@ -1,0 +1,31 @@
+uuid: 6c71e7c8-09b2-4f11-96fc-30cfad06b9dd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.personnalite.body
+    - node.type.personnalite
+  module:
+    - text
+    - user
+id: node.personnalite.teaser
+targetEntityType: node
+bundle: personnalite
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

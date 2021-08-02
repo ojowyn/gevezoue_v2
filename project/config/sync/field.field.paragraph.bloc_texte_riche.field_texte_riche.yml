@@ -1,0 +1,21 @@
+uuid: 22a3e860-a156-46f1-b4e0-82a31fa6277a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte_riche
+    - paragraphs.paragraphs_type.bloc_texte_riche
+  module:
+    - text
+id: paragraph.bloc_texte_riche.field_texte_riche
+field_name: field_texte_riche
+entity_type: paragraph
+bundle: bloc_texte_riche
+label: 'Texte Riche'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,11 @@
+uuid: dced4843-2a48-4792-b787-8454528e4025
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematique
+id: taxonomy_term.thematique
+target_entity_type_id: taxonomy_term
+target_bundle: thematique
+default_langcode: site_default
+language_alterable: false

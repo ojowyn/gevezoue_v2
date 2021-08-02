@@ -1,3 +1,7 @@
-# Created by .ignore support plugin (hsz.mobi)
-project
-!project/.gitkeep
+
+/project/vendor/
+/project/web/core/
+/project/web/modules/contrib/
+/project/web/sites/**/files/
+/project/web/sites/**/service*.yml
+/project/web/sites/**/settings*.php

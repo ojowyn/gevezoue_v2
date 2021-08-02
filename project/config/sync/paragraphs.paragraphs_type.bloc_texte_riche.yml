@@ -1,0 +1,10 @@
+uuid: 3c8d5dfb-6349-413a-8f37-8d9b1765133c
+langcode: fr
+status: true
+dependencies: {  }
+id: bloc_texte_riche
+label: 'Bloc de Texte Riche'
+icon_uuid: null
+icon_default: null
+description: 'Bloc de texte formaté avec du gras, italique,...'
+behavior_plugins: {  }

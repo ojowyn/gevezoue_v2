@@ -1,0 +1,11 @@
+uuid: 0c39d4be-796f-489d-b3ab-46e6d1422dcb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mecanique
+id: taxonomy_term.mecanique
+target_entity_type_id: taxonomy_term
+target_bundle: mecanique
+default_langcode: site_default
+language_alterable: false

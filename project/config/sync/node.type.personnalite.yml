@@ -1,0 +1,17 @@
+uuid: b530f5e0-7c5b-4edc-92a6-7e5b6abadb0b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Personnalité
+type: personnalite
+description: 'Personnalité du monde ludique (auteur, illustrateur,...)'
+help: 'Nom Prénom, Pseudo'
+new_revision: false
+preview_mode: 1
+display_submitted: false

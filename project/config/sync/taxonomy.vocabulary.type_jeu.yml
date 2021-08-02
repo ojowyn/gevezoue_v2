@@ -1,0 +1,8 @@
+uuid: 76214d4f-f7de-4af8-a871-83866c47878a
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de Jeu'
+vid: type_jeu
+description: 'Type de jeu (Party Game, Jeux de Rôle, Wargame, ...)'
+weight: 0

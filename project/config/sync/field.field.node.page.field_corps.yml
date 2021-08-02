@@ -1,0 +1,29 @@
+uuid: d570f558-5f13-4949-9588-e7c97f8616ba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_corps
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_corps
+field_name: field_corps
+entity_type: node
+bundle: page
+label: 'Corps de page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles: null
+    target_bundles_drag_drop:
+      bloc_texte_riche:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

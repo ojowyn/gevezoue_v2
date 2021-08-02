@@ -1,0 +1,22 @@
+uuid: a7406eca-97b4-408b-9d2f-f7c8f9ed505c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.personnalite
+id: node.personnalite.status
+field_name: status
+entity_type: node
+bundle: personnalite
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 023d17d7-48bc-4229-bdb0-5f9943df8707
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.personnalite
+id: node.personnalite.title
+field_name: title
+entity_type: node
+bundle: personnalite
+label: 'Identité '
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

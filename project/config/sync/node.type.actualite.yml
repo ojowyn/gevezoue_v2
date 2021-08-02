@@ -1,0 +1,17 @@
+uuid: 5cad13e4-ded4-4f78-9516-c1df1d02730a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Actualité
+type: actualite
+description: 'Contenus "dit chaud", avec une durée de vie plus ou moins courte.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

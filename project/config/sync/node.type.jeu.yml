@@ -1,0 +1,17 @@
+uuid: 82506d30-e87f-4c31-8f0f-a996f124b22d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Jeu
+type: jeu
+description: 'Fiche de Jeu'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

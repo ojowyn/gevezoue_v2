@@ -1,0 +1,21 @@
+uuid: 3d872dfe-9a44-47a1-b853-fb1fe72d4329
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position_image
+    - paragraphs.paragraphs_type.bloc_texte_riche
+  module:
+    - options
+id: paragraph.bloc_texte_riche.field_position_image
+field_name: field_position_image
+entity_type: paragraph
+bundle: bloc_texte_riche
+label: 'Position de l''image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

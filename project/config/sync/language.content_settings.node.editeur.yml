@@ -1,0 +1,11 @@
+uuid: 827f9cba-0bc3-410f-8ad6-f5e36fe70a51
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.editeur
+id: node.editeur
+target_entity_type_id: node
+target_bundle: editeur
+default_langcode: site_default
+language_alterable: false

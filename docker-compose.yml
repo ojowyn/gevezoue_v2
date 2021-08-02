@@ -9,7 +9,7 @@ services:
       - phpmyadmindata:/var/www/phpmyadmin:ro,delegated
     labels:
       - traefik.enable=true
-      - traefik.http.routers.nginx.rule=Host(`gevezoue.local`)
+      - traefik.http.routers.nginx.rule=Host(`gevezoue.lab`)
       - traefik.http.routers.nginx.entryPoints=web
     depends_on:
       - php
@@ -32,7 +32,7 @@ services:
 
   # MySQL Service
   mysql:
-    image: library/mysql:8
+    image: library/mariadb
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: gvz
@@ -55,10 +55,12 @@ services:
       - mysql
     networks:
       - frontend
+      - backend
     labels:
-      - traefik.enable=true
-      - traefik.http.routers.drupal.rule=Host(`phpmyadmin.local`)
-      - traefik.http.routers.drupal.entryPoints=web
+      - "traefik.enable=true"
+      - "traefik.http.routers.drupal.rule=Host(`phpmyadmin.lab`)"
+      - "traefik.http.routers.drupal.entryPoints=web"
+      - "traefik.http.services.traefik.loadbalancer.server.port=8080"
 
   # Memcache Service
   memcache:

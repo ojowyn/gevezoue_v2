@@ -1,0 +1,14 @@
+uuid: c9a1f39a-5ca1-4df2-872e-27b2cd0bb1b8
+name: Gevezoué
+mail: contact@gevezoue.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

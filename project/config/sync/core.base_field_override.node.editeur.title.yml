@@ -1,0 +1,18 @@
+uuid: b49dd8fc-207b-4a40-87e4-6ecad0a0019a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.editeur
+id: node.editeur.title
+field_name: title
+entity_type: node
+bundle: editeur
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

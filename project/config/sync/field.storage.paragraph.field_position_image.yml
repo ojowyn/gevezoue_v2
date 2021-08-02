@@ -1,0 +1,51 @@
+uuid: 03efdff8-7690-40b6-937b-907ab991b5a5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_position_image
+field_name: field_position_image
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: float-left-30
+      label: 'Flottant à Gauche 30%'
+    -
+      value: float-left-50
+      label: 'Flottant à Gauche 50%'
+    -
+      value: float-right-30
+      label: 'Flottant à Droite 30%'
+    -
+      value: float-right-50
+      label: 'Flottant à Droite 50%'
+    -
+      value: bloc-top
+      label: 'Bloc au Dessus'
+    -
+      value: bloc-bottom
+      label: 'Bloc en Dessous'
+    -
+      value: bloc-left-30
+      label: 'Bloc à Gauche 30%'
+    -
+      value: bloc-left-50
+      label: 'Bloc à Gauche 50%'
+    -
+      value: bloc-right-30
+      label: 'Bloc à Droite 30%'
+    -
+      value: bloc-right-50
+      label: 'Bloc à Droite 50%'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

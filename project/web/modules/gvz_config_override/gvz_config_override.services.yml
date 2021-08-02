@@ -1,0 +1,5 @@
+services:
+  gvz_config_override.example:
+    class: Drupal\gvz_config_override\Config\GvzConfigOverrideParagraph
+    tags:
+      - {name: config.factory.override, priority: 5}

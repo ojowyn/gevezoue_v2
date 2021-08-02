@@ -1,0 +1,8 @@
+uuid: 65975728-d0ec-4cb7-b975-b688e7f1546d
+langcode: fr
+status: true
+dependencies: {  }
+name: Mécanique
+vid: mecanique
+description: 'Mécanique de jeu mis en oeuvre (Pose Bouvier, Draft, ...)'
+weight: 0

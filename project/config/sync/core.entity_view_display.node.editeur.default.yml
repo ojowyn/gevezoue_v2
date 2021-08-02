@@ -1,0 +1,29 @@
+uuid: 5dd98c72-c826-4f66-a631-c275eb71bf29
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.editeur.body
+    - node.type.editeur
+  module:
+    - text
+    - user
+id: node.editeur.default
+targetEntityType: node
+bundle: editeur
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
