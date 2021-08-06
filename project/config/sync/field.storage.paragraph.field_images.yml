@@ -1,0 +1,35 @@
+uuid: 04878520-09f8-4217-9086-8e44d2637656
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - file
+    - image
+    - paragraphs
+_core:
+  default_config_hash: HThWJ_fyhxXA92F66nncZCLDrGyeumtO6FZYwJ7Xs8I
+id: paragraph.field_images
+field_name: field_images
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

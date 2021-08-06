@@ -1,0 +1,28 @@
+uuid: 68131b58-b0ef-413c-9f57-edef299189b7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_format_bouton
+    - paragraphs.paragraphs_type.bloc_de_liens
+  enforced:
+    module:
+      - ojo_paragraphs
+_core:
+  default_config_hash: ZyiOsih8NNvIEyitLWTS_6KfQGwz5mTzC0NLjsUU0c8
+id: paragraph.bloc_de_liens.field_format_bouton
+field_name: field_format_bouton
+entity_type: paragraph
+bundle: bloc_de_liens
+label: 'Format Bouton'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

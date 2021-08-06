@@ -1,12 +1,17 @@
-uuid: f9acae01-adea-41e8-abba-666abfac3700
+uuid: cbb94430-d69c-4e34-ae78-bc0cd7e82f5f
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_image
     - paragraphs.paragraphs_type.bloc_texte_riche
+  enforced:
+    module:
+      - ojo_paragraphs
   module:
     - image
+_core:
+  default_config_hash: BjUCGJnSTkckoAa5YB-MGiN2k6kZXqwkrOE57mgbLYo
 id: paragraph.bloc_texte_riche.field_image
 field_name: field_image
 entity_type: paragraph

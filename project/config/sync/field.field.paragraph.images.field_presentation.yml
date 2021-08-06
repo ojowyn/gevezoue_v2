@@ -1,0 +1,28 @@
+uuid: 18ad852d-9136-40c5-a5f6-c1c12466c8b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_presentation
+    - paragraphs.paragraphs_type.images
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - options
+_core:
+  default_config_hash: emXG-RT961Q_GGijzggoR4r_YLdFKE0JDKN47E9bJ9A
+id: paragraph.images.field_presentation
+field_name: field_presentation
+entity_type: paragraph
+bundle: images
+label: Présentation
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: mosaic
+default_value_callback: ''
+settings: {  }
+field_type: list_string

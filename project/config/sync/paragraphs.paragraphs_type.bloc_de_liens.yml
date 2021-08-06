@@ -1,0 +1,20 @@
+uuid: 9b9975d3-d55f-471e-9b3e-ac43fe67cb1f
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - paragraph_view_mode
+third_party_settings:
+  paragraph_view_mode:
+    enabled: false
+_core:
+  default_config_hash: LYGFRqo8gx-cEXZfZpv2myn4uXXNHG75EZeOvC975pk
+id: bloc_de_liens
+label: 'Bloc de liens'
+icon_uuid: null
+icon_default: null
+description: 'Bloc affichant une liste de lien (sous forme de lien ou de bouton)'
+behavior_plugins: {  }

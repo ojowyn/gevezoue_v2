@@ -1,0 +1,18 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraph_view_mode
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+third_party_settings:
+  paragraph_view_mode:
+    enabled: false
+id: bloc_de_liens
+label: 'Bloc de liens'
+icon_uuid: null
+icon_default: null
+description: 'Bloc affichant une liste de lien (sous forme de lien ou de bouton)'
+behavior_plugins: {  }

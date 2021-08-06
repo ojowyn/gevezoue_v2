@@ -1,0 +1,32 @@
+uuid: ceb83313-e425-482b-b08a-0f30fca962d8
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: q6SydbZUVlI6TjKsoeQnPlIMhJJZixM7ENaCDIZc2nY
+id: paragraph.field_presentation
+field_name: field_presentation
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: mosaic
+      label: Mosaïc
+    -
+      value: carousel
+      label: Carousel
+  allowed_values_function: field_presentation_allowed_values_function
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

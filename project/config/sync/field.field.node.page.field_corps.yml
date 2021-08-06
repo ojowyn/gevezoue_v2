@@ -23,7 +23,13 @@ settings:
     negate: 1
     target_bundles: null
     target_bundles_drag_drop:
+      bloc_de_liens:
+        weight: 4
+        enabled: false
       bloc_texte_riche:
         weight: 2
+        enabled: false
+      images:
+        weight: 6
         enabled: false
 field_type: entity_reference_revisions

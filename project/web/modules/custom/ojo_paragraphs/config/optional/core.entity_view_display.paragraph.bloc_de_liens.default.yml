@@ -1,0 +1,41 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bloc_de_liens.field_format_bouton
+    - field.field.paragraph.bloc_de_liens.field_liens
+    - paragraphs.paragraphs_type.bloc_de_liens
+  module:
+    - link
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+id: paragraph.bloc_de_liens.default
+targetEntityType: paragraph
+bundle: bloc_de_liens
+mode: default
+content:
+  field_format_bouton:
+    weight: 1
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_liens:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

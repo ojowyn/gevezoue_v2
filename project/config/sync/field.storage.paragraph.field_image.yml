@@ -1,11 +1,16 @@
-uuid: 7e715f9b-2ddf-4245-9bc0-fbb50bae8cc9
+uuid: a11854f5-43b4-41a1-89d2-ab5c5125f65e
 langcode: fr
 status: true
 dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
   module:
     - file
     - image
     - paragraphs
+_core:
+  default_config_hash: dQxYjssGKR8qwouryHIpxnckaJKdGxBYgIRZraxms5g
 id: paragraph.field_image
 field_name: field_image
 entity_type: paragraph

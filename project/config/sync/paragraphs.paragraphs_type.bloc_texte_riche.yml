@@ -1,7 +1,12 @@
-uuid: 3c8d5dfb-6349-413a-8f37-8d9b1765133c
+uuid: a5c1e579-72f9-4489-9437-780107d1868c
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
+_core:
+  default_config_hash: qzt4lRMacqSiS482QwQeWkAir7aJiFSCkeH_RlRUkoY
 id: bloc_texte_riche
 label: 'Bloc de Texte Riche'
 icon_uuid: null

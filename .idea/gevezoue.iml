@@ -88,6 +88,13 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/drush/drush" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/grasmash/yaml-expander" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/grasmash/expander" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/oomphinc/composer-installers-extender" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/collections" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

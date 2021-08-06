@@ -1,4 +1,4 @@
-uuid: 16d3bd07-00b2-4c26-9c62-e26a5dbdcf38
+uuid: af969a22-3e89-4d48-b4e5-125752188439
 langcode: fr
 status: true
 dependencies:
@@ -8,9 +8,14 @@ dependencies:
     - field.field.paragraph.bloc_texte_riche.field_texte_riche
     - image.style.thumbnail
     - paragraphs.paragraphs_type.bloc_texte_riche
+  enforced:
+    module:
+      - ojo_paragraphs
   module:
     - image
     - text
+_core:
+  default_config_hash: kV4zk5x2KBef2zWjowdqUAyZiuBarzyCv2a3kBdL9Ck
 id: paragraph.bloc_texte_riche.default
 targetEntityType: paragraph
 bundle: bloc_texte_riche

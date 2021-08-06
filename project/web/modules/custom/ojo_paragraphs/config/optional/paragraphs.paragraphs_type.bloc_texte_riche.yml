@@ -1,0 +1,14 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+id: bloc_texte_riche
+label: 'Bloc de Texte Riche'
+icon_uuid: null
+icon_default: null
+description: 'Bloc de texte formaté avec du gras, italique,...'
+behavior_plugins: {  }

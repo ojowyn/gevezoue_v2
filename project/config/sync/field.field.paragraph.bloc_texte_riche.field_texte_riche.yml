@@ -1,12 +1,17 @@
-uuid: 22a3e860-a156-46f1-b4e0-82a31fa6277a
+uuid: 9f677971-d748-4e03-9e92-8f1a978af64b
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_texte_riche
     - paragraphs.paragraphs_type.bloc_texte_riche
+  enforced:
+    module:
+      - ojo_paragraphs
   module:
     - text
+_core:
+  default_config_hash: WPUWZugFnnH6lBXZ-Jp8WvBo5UjkI8gbQqX1r2zZ4fM
 id: paragraph.bloc_texte_riche.field_texte_riche
 field_name: field_texte_riche
 entity_type: paragraph

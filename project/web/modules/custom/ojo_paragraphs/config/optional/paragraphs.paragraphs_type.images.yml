@@ -1,0 +1,18 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraph_view_mode
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+third_party_settings:
+  paragraph_view_mode:
+    enabled: false
+id: images
+label: 'Bloc d''images'
+icon_uuid: null
+icon_default: null
+description: 'Bloc affichant une liste d''image au format Mosaïc ou Carousel avec option de lightbox'
+behavior_plugins: {  }

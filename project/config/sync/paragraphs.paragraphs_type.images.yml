@@ -1,0 +1,20 @@
+uuid: 90b1d701-581f-43bf-9237-46b12a08dc84
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - paragraph_view_mode
+third_party_settings:
+  paragraph_view_mode:
+    enabled: false
+_core:
+  default_config_hash: m-rU7e0MH2RrMFFFtuG7iucr6c-I_arUAy_CdXGzzR8
+id: images
+label: 'Bloc d''images'
+icon_uuid: null
+icon_default: null
+description: 'Bloc affichant une liste d''image au format Mosaïc ou Carousel avec option de lightbox'
+behavior_plugins: {  }

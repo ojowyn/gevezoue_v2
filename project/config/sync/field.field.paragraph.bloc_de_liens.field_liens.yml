@@ -1,0 +1,28 @@
+uuid: cd07a110-6a33-4d22-b7cb-531f49c4d01a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_liens
+    - paragraphs.paragraphs_type.bloc_de_liens
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - link
+_core:
+  default_config_hash: mx2-7Zj0zKHnLO0pTRx0qKj_HKfB957nlyp1M1eXMBs
+id: paragraph.bloc_de_liens.field_liens
+field_name: field_liens
+entity_type: paragraph
+bundle: bloc_de_liens
+label: Liens
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

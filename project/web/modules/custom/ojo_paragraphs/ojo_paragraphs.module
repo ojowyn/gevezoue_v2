@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Ojo paragraphs module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+function field_position_image_allowed_values_function () {
+  return [
+    'float-left-30' => 'Flottant à Gauche 30%',
+    'float-left-50' => 'Flottant à Gauche 50%',
+    'float-right-30' => 'Flottant à Droite 30%',
+    'float-right-50' => 'Flottant à Droite 50%',
+    'bloc-top' => 'Bloc au Dessus',
+    'bloc-bottom' => 'Bloc en Dessous',
+    'bloc-left-30' => 'Bloc à Gauche 30%',
+    'bloc-left-50' => 'Bloc à Gauche 50%',
+    'bloc-right-30' => 'Bloc à Droite 30%',
+    'bloc-right-50' => 'Bloc à Droite 50%',
+  ];
+}
+
+function field_presentation_allowed_values_function () {
+  return [
+    'mosaic' => 'Mosaïc',
+    'carousel' => 'Corousel',
+  ];
+}

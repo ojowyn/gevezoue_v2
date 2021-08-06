@@ -1,0 +1,32 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bloc_de_liens.field_format_bouton
+    - field.field.paragraph.bloc_de_liens.field_liens
+    - paragraphs.paragraphs_type.bloc_de_liens
+  module:
+    - link
+id: paragraph.bloc_de_liens.default
+targetEntityType: paragraph
+bundle: bloc_de_liens
+mode: default
+content:
+  field_format_bouton:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_liens:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true

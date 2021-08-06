@@ -86,6 +86,13 @@
       <path value="$PROJECT_DIR$/project/vendor/drush/drush" />
       <path value="$PROJECT_DIR$/project/vendor/grasmash/yaml-expander" />
       <path value="$PROJECT_DIR$/project/vendor/grasmash/expander" />
+      <path value="$PROJECT_DIR$/project/vendor/oomphinc/composer-installers-extender" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/collections" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

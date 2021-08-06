@@ -48,7 +48,7 @@ content:
         paragraphs_ee:
           dialog_off_canvas: true
           dialog_style: list
-          easy_access_count: 4
+          easy_access_count: 1
     region: content
   langcode:
     type: language_select

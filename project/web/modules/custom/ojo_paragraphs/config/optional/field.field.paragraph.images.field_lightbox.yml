@@ -1,0 +1,27 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lightbox
+    - paragraphs.paragraphs_type.images
+  module:
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+id: paragraph.images.field_lightbox
+field_name: field_lightbox
+entity_type: paragraph
+bundle: images
+label: Lightbox
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

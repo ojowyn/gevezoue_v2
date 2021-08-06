@@ -12,6 +12,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "require": {
@@ -26,7 +30,11 @@
         "drupal/paragraphs_ee": "^1.8",
         "drupal/paragraphs_features": "^1.12",
         "drupal/seeds_toolbar": "^1.16",
-        "drush/drush": "^10.5"
+        "drush/drush": "^10.5",
+        "npm-asset/masonry-layout": "^4.2",
+        "npm-asset/slick-carousel": "^1.8",
+        "npm-asset/slick-lightbox": "^0.2.12",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -42,12 +50,18 @@
                 "web-root": "web/"
             }
         },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
@@ -92,5 +106,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/devel": "^4.1"
     }
 }

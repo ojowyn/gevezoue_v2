@@ -1,0 +1,28 @@
+uuid: 49471814-78a6-440b-be75-2a9a892b2280
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lightbox
+    - paragraphs.paragraphs_type.images
+  enforced:
+    module:
+      - ojo_paragraphs
+_core:
+  default_config_hash: hPxFUFQ8aZFsRZ5Yk7Izbq7w9uAaexf2hoALaGec238
+id: paragraph.images.field_lightbox
+field_name: field_lightbox
+entity_type: paragraph
+bundle: images
+label: Lightbox
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

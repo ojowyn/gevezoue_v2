@@ -1,10 +1,15 @@
-uuid: 03efdff8-7690-40b6-937b-907ab991b5a5
+uuid: fee1f5f0-2c1f-4e5d-90d4-6baf8a63d357
 langcode: fr
 status: true
 dependencies:
+  enforced:
+    module:
+      - ojo_paragraphs
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: FwgfnVwn5h1tLSiKVs9tAqisQjuEKKIEkhCdyDp2Xbc
 id: paragraph.field_position_image
 field_name: field_position_image
 entity_type: paragraph
@@ -41,7 +46,7 @@ settings:
     -
       value: bloc-right-50
       label: 'Bloc à Droite 50%'
-  allowed_values_function: ''
+  allowed_values_function: field_position_image_allowed_values_function
 module: options
 locked: false
 cardinality: 1

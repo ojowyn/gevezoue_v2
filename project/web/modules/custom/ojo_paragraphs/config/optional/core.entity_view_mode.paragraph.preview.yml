@@ -1,0 +1,15 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+_core:
+  default_config_hash: h3BeHVei4Lnyqbkao3YiF4KqoY-DhRvUNfEgKG8Rgjg
+id: paragraph.preview
+label: Aperçu
+targetEntityType: paragraph
+cache: true

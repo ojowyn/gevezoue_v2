@@ -1,0 +1,46 @@
+uuid: 8a9a097d-e33e-43da-b029-5eda348a7419
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.images.field_images
+    - field.field.paragraph.images.field_lightbox
+    - field.field.paragraph.images.field_presentation
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.images
+  enforced:
+    module:
+      - ojo_paragraphs
+  module:
+    - image
+_core:
+  default_config_hash: f-MrtMFRhxjzZZG5WALGxYD06sl7LMinLYjwBa10RWw
+id: paragraph.images.default
+targetEntityType: paragraph
+bundle: images
+mode: default
+content:
+  field_images:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_lightbox:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_presentation:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - ojo_paragraphs
+  enforced:
+    module:
+      - ojo_paragraphs
+id: paragraph.complet
+label: Complet
+targetEntityType: paragraph
+cache: true
