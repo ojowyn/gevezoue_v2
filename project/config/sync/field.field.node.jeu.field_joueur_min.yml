@@ -1,0 +1,25 @@
+uuid: e0d1559e-03b2-4da7-aa06-21a0791b3762
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_joueur_min
+    - node.type.jeu
+id: node.jeu.field_joueur_min
+field_name: field_joueur_min
+entity_type: node
+bundle: jeu
+label: 'Nb Joueur Minimum'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -25,6 +25,8 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/field_group": "^3.2",
+        "drupal/focal_point": "^1.5",
         "drupal/paragraph_view_mode": "^2.0",
         "drupal/paragraphs": "^1.12",
         "drupal/paragraphs_ee": "^1.8",

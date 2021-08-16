@@ -1,0 +1,29 @@
+uuid: 04cf41b8-7306-4f8c-a6ee-4d39b3ff9233
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorie
+    - node.type.personnalite
+    - taxonomy.vocabulary.type_de_personnalite
+id: node.personnalite.field_categorie
+field_name: field_categorie
+entity_type: node
+bundle: personnalite
+label: Type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_de_personnalite: type_de_personnalite
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

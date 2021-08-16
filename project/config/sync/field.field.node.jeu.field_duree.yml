@@ -1,0 +1,23 @@
+uuid: 9331de21-ea15-4091-9f59-985fceec3dce
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duree
+    - node.type.jeu
+id: node.jeu.field_duree
+field_name: field_duree
+entity_type: node
+bundle: jeu
+label: 'Durée moyenne'
+description: 'Durée moyenne en minutes'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

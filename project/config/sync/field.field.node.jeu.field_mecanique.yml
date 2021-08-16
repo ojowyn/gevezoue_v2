@@ -1,0 +1,29 @@
+uuid: fe5e16d7-cbe6-42ab-bcbb-5df3c9224679
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mecanique
+    - node.type.jeu
+    - taxonomy.vocabulary.mecanique
+id: node.jeu.field_mecanique
+field_name: field_mecanique
+entity_type: node
+bundle: jeu
+label: Mecanique
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mecanique: mecanique
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

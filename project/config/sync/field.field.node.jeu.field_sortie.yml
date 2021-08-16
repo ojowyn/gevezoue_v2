@@ -1,0 +1,23 @@
+uuid: bf5f86f2-9011-430d-ad07-6a92c727c5bb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sortie
+    - node.type.jeu
+id: node.jeu.field_sortie
+field_name: field_sortie
+entity_type: node
+bundle: jeu
+label: 'Année de sortie'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1920
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,8 @@
+uuid: 7d80e6c6-c0e5-4592-ae2b-fc711094c47f
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de Personnalité'
+vid: type_de_personnalite
+description: 'Type de personalité du monde du jeux (auteur, illustrateur...)'
+weight: 0

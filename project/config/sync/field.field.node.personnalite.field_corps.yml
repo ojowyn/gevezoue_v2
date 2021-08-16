@@ -1,0 +1,35 @@
+uuid: 1b0299bc-9bcf-4a7e-b384-1abe6be93118
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_corps
+    - node.type.personnalite
+  module:
+    - entity_reference_revisions
+id: node.personnalite.field_corps
+field_name: field_corps
+entity_type: node
+bundle: personnalite
+label: 'Corps de page'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles: null
+    target_bundles_drag_drop:
+      bloc_de_liens:
+        weight: 4
+        enabled: false
+      bloc_texte_riche:
+        weight: 5
+        enabled: false
+      images:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

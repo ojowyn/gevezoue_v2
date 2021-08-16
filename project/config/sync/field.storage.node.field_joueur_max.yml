@@ -1,0 +1,20 @@
+uuid: 414a4147-e3a3-4203-bc3b-a6d13a377d30
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_joueur_max
+field_name: field_joueur_max
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

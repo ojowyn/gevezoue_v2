@@ -1,0 +1,29 @@
+uuid: cb055f8f-7d7e-4721-9a33-d8d0d8083d67
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_jeu
+    - node.type.jeu
+    - taxonomy.vocabulary.type_jeu
+id: node.jeu.field_type_jeu
+field_name: field_type_jeu
+entity_type: node
+bundle: jeu
+label: 'Type de jeu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_jeu: type_jeu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

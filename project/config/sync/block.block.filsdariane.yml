@@ -1,15 +1,13 @@
-uuid: 9bf53874-3c72-49d5-aeff-9aa9294164cc
+uuid: 3bff68ea-32da-4e62-aef9-e230cbf1b5ba
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - claro
-_core:
-  default_config_hash: b6mUaCq5YPapRUABXRHfNTT6fxWIj5lgf0Mg4HaRJ_I
-id: claro_breadcrumbs
-theme: claro
+    - seven
+id: filsdariane
+theme: seven
 region: breadcrumb
 weight: 0
 provider: null

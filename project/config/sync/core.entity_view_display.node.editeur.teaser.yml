@@ -4,28 +4,32 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.editeur.body
+    - field.field.node.editeur.field_corps
+    - field.field.node.editeur.field_image_principal
+    - image.style.medium
     - node.type.editeur
   module:
-    - text
+    - image
     - user
 id: node.editeur.teaser
 targetEntityType: node
 bundle: editeur
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
+  field_image_principal:
+    type: image
+    weight: 1
     region: content
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
+  field_corps: true
   langcode: true

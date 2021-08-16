@@ -1,0 +1,58 @@
+uuid: ce19b90a-dbb2-4b09-987d-ea66fd06518b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.html_limite
+  module:
+    - ckeditor
+format: html_limite
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Styles
+          items:
+            - Styles
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Strike
+            - Superscript
+            - Subscript
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Média
+          items:
+            - Blockquote
+        -
+          name: Outils
+          items:
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

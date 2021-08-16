@@ -1,0 +1,8 @@
+uuid: e7bfdc2a-07e3-446d-b1ce-0fc52643b934
+langcode: fr
+status: true
+dependencies: {  }
+name: Catégorie
+vid: categorie
+description: 'Catégorie d''actualité (Sortie, Vie de l''Asso,...)'
+weight: 0

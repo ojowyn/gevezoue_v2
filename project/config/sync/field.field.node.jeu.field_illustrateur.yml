@@ -1,0 +1,29 @@
+uuid: ddf7eb18-0644-47b8-b4dc-389ddc829e6c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_illustrateur
+    - node.type.jeu
+    - node.type.personnalite
+id: node.jeu.field_illustrateur
+field_name: field_illustrateur
+entity_type: node
+bundle: jeu
+label: Illustrateur
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      personnalite: personnalite
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

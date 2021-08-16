@@ -1,0 +1,27 @@
+uuid: d52a3e9c-0ae3-4a45-a695-59cbe81893fd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fichiers_lies
+    - node.type.jeu
+  module:
+    - file
+id: node.jeu.field_fichiers_lies
+field_name: field_fichiers_lies
+entity_type: node
+bundle: jeu
+label: 'Fichiers Liés'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: fichiers
+  file_extensions: 'txt pdf docx doc xls xlsx odt'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

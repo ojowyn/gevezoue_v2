@@ -1,0 +1,25 @@
+uuid: 9e559b85-91c3-431e-a301-3f2334680fdd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age
+    - node.type.jeu
+id: node.jeu.field_age
+field_name: field_age
+entity_type: node
+bundle: jeu
+label: 'Age recommandé'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 3
+default_value_callback: ''
+settings:
+  min: 3
+  max: 18
+  prefix: ''
+  suffix: ''
+field_type: integer

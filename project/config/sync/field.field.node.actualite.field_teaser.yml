@@ -1,0 +1,19 @@
+uuid: db38186f-e908-4279-ace9-4023482bb890
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser
+    - node.type.actualite
+id: node.actualite.field_teaser
+field_name: field_teaser
+entity_type: node
+bundle: actualite
+label: Teaser
+description: "Texte d'introduction (résumé) affiché dans les blocs des pages liste, ou les blocs de mise en avant.\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

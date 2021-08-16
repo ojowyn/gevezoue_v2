@@ -4,28 +4,48 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.jeu.body
+    - field.field.node.jeu.field_age
+    - field.field.node.jeu.field_auteur
+    - field.field.node.jeu.field_autre_version
+    - field.field.node.jeu.field_corps
+    - field.field.node.jeu.field_duree
+    - field.field.node.jeu.field_fichiers_lies
+    - field.field.node.jeu.field_illustrateur
+    - field.field.node.jeu.field_image_principal
+    - field.field.node.jeu.field_joueur_max
+    - field.field.node.jeu.field_joueur_min
+    - field.field.node.jeu.field_mecanique
+    - field.field.node.jeu.field_sortie
+    - field.field.node.jeu.field_teaser
+    - field.field.node.jeu.field_theme
+    - field.field.node.jeu.field_type_jeu
     - node.type.jeu
   module:
-    - text
     - user
 id: node.jeu.teaser
 targetEntityType: node
 bundle: jeu
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
 hidden:
+  field_age: true
+  field_auteur: true
+  field_autre_version: true
+  field_corps: true
+  field_duree: true
+  field_fichiers_lies: true
+  field_illustrateur: true
+  field_image_principal: true
+  field_joueur_max: true
+  field_joueur_min: true
+  field_mecanique: true
+  field_sortie: true
+  field_teaser: true
+  field_theme: true
+  field_type_jeu: true
   langcode: true
