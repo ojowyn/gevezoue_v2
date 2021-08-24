@@ -3,8 +3,6 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bloc_texte_riche.field_image
-    - field.field.paragraph.bloc_texte_riche.field_position_image
     - field.field.paragraph.bloc_texte_riche.field_texte_riche
     - paragraphs.paragraphs_type.bloc_texte_riche
   enforced:
@@ -12,8 +10,6 @@ dependencies:
       - ojo_paragraphs
   module:
     - layout_builder
-    - options
-    - responsive_image
     - text
 third_party_settings:
   layout_builder:
@@ -26,22 +22,6 @@ targetEntityType: paragraph
 bundle: bloc_texte_riche
 mode: default
 content:
-  field_image:
-    weight: 1
-    label: hidden
-    settings:
-      image_link: ''
-      responsive_image_style: ''
-    third_party_settings: {  }
-    type: responsive_image
-    region: content
-  field_position_image:
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_texte_riche:
     weight: 0
     label: hidden

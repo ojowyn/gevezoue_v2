@@ -1,25 +1,23 @@
-uuid: 91161292-c051-46a9-846d-17a5892d05bd
+uuid: a411a803-45ce-4c53-8c87-81e6a4026294
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_position_image
-    - paragraphs.paragraphs_type.bloc_texte_riche
+    - paragraphs.paragraphs_type.bloc_texte_riche_image
+  module:
+    - options
   enforced:
     module:
       - ojo_paragraphs
-  module:
-    - options
-_core:
-  default_config_hash: cehtN5u5Eac8OitJvEWQ1wFyJIqyx0NTltAc3Z_oy20
-id: paragraph.bloc_texte_riche.field_position_image
+id: paragraph.bloc_texte_riche_image.field_position_image
 field_name: field_position_image
 entity_type: paragraph
-bundle: bloc_texte_riche
+bundle: bloc_texte_riche_image
 label: 'Position de l''image'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

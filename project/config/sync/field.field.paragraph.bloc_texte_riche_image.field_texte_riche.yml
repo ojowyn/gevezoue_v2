@@ -1,0 +1,24 @@
+uuid: 70857885-55f9-4270-a591-6445d88634c2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte_riche
+    - paragraphs.paragraphs_type.bloc_texte_riche_image
+  module:
+    - text
+  enforced:
+    module:
+      - ojo_paragraphs
+id: paragraph.bloc_texte_riche_image.field_texte_riche
+field_name: field_texte_riche
+entity_type: paragraph
+bundle: bloc_texte_riche_image
+label: 'Texte Riche'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

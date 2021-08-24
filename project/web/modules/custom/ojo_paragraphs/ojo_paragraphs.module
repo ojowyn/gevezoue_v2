@@ -30,3 +30,20 @@ function field_presentation_allowed_values_function () {
     'carousel' => 'Corousel',
   ];
 }
+
+function ojo_paragraphs_theme() {
+  return [
+    'paragraph__bloc_de_lien' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__bloc_texte_riche' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__bloc_texte_riche_image' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__images' => [
+      'base hook' => 'paragraph',
+    ],
+  ];
+}

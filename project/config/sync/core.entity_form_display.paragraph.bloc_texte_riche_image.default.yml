@@ -1,0 +1,46 @@
+uuid: c625b8f6-406a-4ae4-b87b-efd0c9926802
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bloc_texte_riche_image.field_image
+    - field.field.paragraph.bloc_texte_riche_image.field_position_image
+    - field.field.paragraph.bloc_texte_riche_image.field_texte_riche
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.bloc_texte_riche_image
+  module:
+    - image
+    - text
+  enforced:
+    module:
+      - ojo_paragraphs
+id: paragraph.bloc_texte_riche_image.default
+targetEntityType: paragraph
+bundle: bloc_texte_riche_image
+mode: default
+content:
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_position_image:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_texte_riche:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

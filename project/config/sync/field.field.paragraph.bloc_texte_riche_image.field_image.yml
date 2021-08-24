@@ -1,31 +1,29 @@
-uuid: cbb94430-d69c-4e34-ae78-bc0cd7e82f5f
+uuid: 968c5123-8be9-44a1-9d01-a9dd4f856076
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_image
-    - paragraphs.paragraphs_type.bloc_texte_riche
+    - paragraphs.paragraphs_type.bloc_texte_riche_image
+  module:
+    - image
   enforced:
     module:
       - ojo_paragraphs
-  module:
-    - image
-_core:
-  default_config_hash: BjUCGJnSTkckoAa5YB-MGiN2k6kZXqwkrOE57mgbLYo
-id: paragraph.bloc_texte_riche.field_image
+id: paragraph.bloc_texte_riche_image.field_image
 field_name: field_image
 entity_type: paragraph
-bundle: bloc_texte_riche
+bundle: bloc_texte_riche_image
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: image
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: '4 MB'
+  max_filesize: ''
   max_resolution: ''
   min_resolution: ''
   alt_field: true

@@ -1,45 +1,27 @@
+uuid: 70f7274b-20a5-455b-9db0-a26ef9fd97bb
 langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bloc_texte_riche.field_image
-    - field.field.paragraph.bloc_texte_riche.field_position_image
     - field.field.paragraph.bloc_texte_riche.field_texte_riche
     - paragraphs.paragraphs_type.bloc_texte_riche
-  module:
-    - layout_builder
-    - options
-    - responsive_image
-    - text
-    - ojo_paragraphs
   enforced:
     module:
       - ojo_paragraphs
+  module:
+    - layout_builder
+    - text
 third_party_settings:
   layout_builder:
     allow_custom: false
     enabled: false
+_core:
+  default_config_hash: c8xrAz7Ker2VHe9dG-zyXi2wq8yseqkCNwVpLuCeF2w
 id: paragraph.bloc_texte_riche.default
 targetEntityType: paragraph
 bundle: bloc_texte_riche
 mode: default
 content:
-  field_image:
-    weight: 1
-    label: hidden
-    settings:
-      image_link: ''
-      responsive_image_style: ''
-    third_party_settings: {  }
-    type: responsive_image
-    region: content
-  field_position_image:
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_texte_riche:
     weight: 0
     label: hidden

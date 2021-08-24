@@ -3,16 +3,12 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.paragraph.bloc_texte_riche.field_image
-    - field.field.paragraph.bloc_texte_riche.field_position_image
     - field.field.paragraph.bloc_texte_riche.field_texte_riche
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.bloc_texte_riche
   enforced:
     module:
       - ojo_paragraphs
   module:
-    - image
     - text
 _core:
   default_config_hash: kV4zk5x2KBef2zWjowdqUAyZiuBarzyCv2a3kBdL9Ck
@@ -21,20 +17,6 @@ targetEntityType: paragraph
 bundle: bloc_texte_riche
 mode: default
 content:
-  field_image:
-    weight: 1
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_position_image:
-    weight: 2
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
   field_texte_riche:
     weight: 0
     settings:
